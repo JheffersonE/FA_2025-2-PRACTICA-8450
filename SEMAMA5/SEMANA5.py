@@ -60,4 +60,42 @@ def ejer4():
         case _:
             print("Opción incorrecta")
 
-ejer4()
+def ejer5():
+    
+    n = int(input("Ingrese un número: "))
+    suma = 0
+
+    print()
+
+    for i in range(1, n+1):
+        print(i)
+
+        if i % 2 == 0:
+            suma += i
+
+    print(f"\nSuma de pares: {suma}")
+
+
+def ejer6():
+
+    cant = int(input("Ingrese la cantidad de número: "))
+    ceros = pares = impares = 0
+    print()
+    
+    for i in range(1, cant+1):
+        num = int(input(f"Ingrese el número {i}: "))
+
+        if num == 0: # ceros++
+            ceros+=1
+        elif num % 2 == 0: # pares++
+            par+=1
+        else:
+            impar += 1 # impar++
+
+    print(f"\n# ceros = {ceros}")
+    print(f"# pares = {pares}")
+    print(f"# ceros = {impares}")
+
+ejer6()
+
+

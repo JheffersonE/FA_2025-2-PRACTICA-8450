@@ -49,4 +49,3 @@ def ejer6():
     print("Minutos:", minutos)
     print("Segundos:", segundosrest)
 
-ejer6()
